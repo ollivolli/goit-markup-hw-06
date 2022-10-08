@@ -295,20 +295,25 @@
     </div>
 </div>
 <div class="footer-position-subscribe">
-    <h3 class="footer-title">підпишіться на розсилку</h3>
+    <!-- <h3 class="footer-title">підпишіться на розсилку</h3>
     <div class="position-subscribe">     
-        <label >
+        <label>
             <input class="form-subscribe" type="email" name="email" placeholder="Email"/>
-          </label>
+          </label>       
+    </div>   -->
 
-        <button type="button" class="button-main link position-subscribe">Підписатися         
-<div class="send-icon-style">    
-    <svg class="send-icon" width="24" height="24">
-    <use href="./images/social.svg#icon-icon-send"></use>
-</svg></div>
-        </button>        
-    </div>
+    <label class="footer-subscribe-title" for="footer-email">підпишіться на розсилку
+    <div class="position-subscribe">     
+            <input class="form-subscribe" type="email" name="email" placeholder="Email" id="footer-email"/>
+          </label>       
+    </div>   
 </div>
+<button type="button" class="button-main link position-subscribe-btn">Підписатися         
+    <div class="send-icon-style">    
+        <svg class="send-icon" width="24" height="24">
+        <use href="./images/social.svg#icon-icon-send"></use>
+    </svg></div>
+            </button> 
 </div>
 </footer>
 <!--Модальне вікно-->
@@ -356,9 +361,7 @@
         <div class="form-field">  
         <label for="comment" class="form-label">Коментар</label>
         <textarea name="comment" id="comment" rows="5" placeholder="Введіть текст"></textarea>
-    </div>
-    </form>  
-    
+    </div> 
     <div class="form-policy">
         <input type="checkbox" class="hidden-checkbox" name="policy" id="policy">
         <label class="checkbox-label" for="policy">
@@ -374,6 +377,7 @@
     </div>
 </div>
 </div>
+</form> 
 <script src="./js/modal.js"></script>
 </body>
 </html>
