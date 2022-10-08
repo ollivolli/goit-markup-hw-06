@@ -774,6 +774,7 @@ background-color: #ffffff;
     top: 50%;
 left:50%;
 transform: translate(-50%, -50%);
+transition: var(--transition);
     }
 
 .close-back:hover{
